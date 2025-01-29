@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QaranCodes</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- animation link -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<style>
+    :root{
+        --PrimaryColor: #0F112B;
+        --SecondaryColor: #25245F;
+        --AccedentColor: #AA54A0;
+    }
+</style>
+<body class="bg-[--PrimaryColor] relative flex">
+    <!-- side header -->
+    <aside class="bg-[--SecondaryColor] w-[18%]   fixed text-white pl-3 pr-2 pb-3 pt-7">
+
+        <!-- profile -->
+        <div class="profile flex border-b-[1px] border-gray-400 pb-3">
+            <img src="images/rightsideimage.png" alt="" class="w-[50px] h-[50px] rounded-full mr-3">
+            <div class="info ">
+                <span class="text-gray-400 font-medium">admin</span>
+                <h2 class="font-bold">faiza mahdi</h2>
+            </div>
+        </div>
+
+        <!-- menus -->
+
+        <div class="menus">
+            <h1 class="mt-5 text-2xl capitalize mb-6  ">menus</h1>
+            <ul class="text-md capitalize pl-3 flex-col space-y-6">
+                <li class="mb-6"> <i class="fa fa-home  mr-4 " ></i><a href="index.html" class="  hover:text-[--AccedentColor]">home</a></li>
+                <li class="mb-6"> <i class="fa fa-user t mr-4" ></i><a href="teachers.html" class="hover:text-[--AccedentColor]">teachers</a></li>
+                <li class="mb-6"><i class="fa fa-user-graduate  mr-4" ></i><a href="student.html"  class="hover:text-[--AccedentColor]">students</a></li>
+                <li class="mb-6"><i class="fa fa-clipboard   mr-4" ></i><a href="courses.html"  class="  hover:text-[--AccedentColor]">courses</a></li>
+                <li class="mb-6"><i class="fa fa-dollar-sign  text-[--AccedentColor] mr-4" ></i><a href="fees.html"  class=" text-[--AccedentColor] hover:text-[--AccedentColor]">fees</a></li>
+                <li class="mb-6"><i class="fa fa-calendar-check  mr-4" ></i><a href="#"  class="hover:text-[--AccedentColor]">calender</a></li>
+                <li class="mb-6"><i class="fa fa-chart-simple  mr-4" ></i><a href="#"  class="hover:text-[--AccedentColor]">charts</a></li>
+                <li class="mb-6"><i class="fa fa-file  mr-4" ></i><a href="#"  class="hover:text-[--AccedentColor]">file  manager</a></li>
+                <li class="mb-6"><i class="fa fa-user  mr-4" ></i><a href="#"  class="hover:text-[--AccedentColor]">login</a></li>
+                <li class="mb-6"><i class="fa fa-gear  mr-4" ></i><a href="#"  class="hover:text-[--AccedentColor]">settings</a></li>
+            </ul>
+        </div>
+
+
+    </aside>
+
+    <!-- main -->
+
+    <main class=" w-[82%] ml-[18%]">
+        <header class=" py-7 px-8  flex justify-between items-center">
+            <div class="left flex">
+                <i class="fa fa-braille   text-gray-200  text-2xl mr-4 "></i>
+                <h1 class=" text-white  capitalize font-bold text-2xl ">fees</h1>
+            </div>
+
+            <div class="right flex items-center relative">
+                <i class="fa-solid fa-moon text-[--AccedentColor] mr-4 text-2xl"> <sup class="text-xs text-blue-500 absolute botton-20 left-10">49</sup></i>
+                <i class="fa-solid fa-bell text-[--AccedentColor] mr-4 text-2xl"> <sup class="text-xs text-white absolute top-[2px] right-[43%]">2</sup></i>
+                <i class="fa-solid fa-envelope text-[--AccedentColor] mr-4 text-2xl"> <sup class="text-xs text-white absolute top-[2px] right-[43%]">2</sup></i>
+                <img src="images/rightsideimage.png" alt="" class="w-[40px] h-[40px] rounded-full mr-3">
+            </div>
+
+
+
+        </header>
+
+
+        <!-- content -->
+
+          <div class="topboxes grid grid-cols-4  gap-4 py-2 px-10">
+            
+            <div class="box bg-[#fff] flex justify-between py-6 px-4 rounded-md text-white items-center">
+                <i class="fa fa-user-graduate bg-[--PrimaryColor]  text-3xl rounded-full px-5 py-4"></i>
+                <div class="text text-gray-500 ">
+                    <h2 class="text-xl mb-2">Total Students</h2>
+                    <h3 class="text-xl mb-2 text-blue-900 font-bold">950</h3>
+                    <p class="text-normal text-sm">10% than last month </p>
+                    
+                </div>
+            </div>
+            <div class="box bg-[#fff] flex justify-between py-6 px-4 rounded-md text-white items-center">
+                <i class="fa fa-user-graduate bg-[#ffc166]  text-3xl rounded-full px-5 py-4"></i>
+                <div class="text text-gray-500 ">
+                    <h2 class="text-xl mb-2">Total Students</h2>
+                    <h3 class="text-xl mb-2 text-blue-900 font-bold">754</h3>
+                    <p class="text-normal text-sm">10% than last month </p>
+                    
+                </div>
+            </div>
+            <div class="box bg-[url('images/fees3.png')] col-span-2 flex justify-between py-6 px-4 rounded-md text-white items-center">
+               
+
+                </div>
+            </div>
+
+             <!-- charts -->
+         <div class="charts mt-20 mx-6 grid grid-cols-2  space-x-3 ">
+            <img src="images/fees4.png" alt="">
+            <img src="images/fees6.png" alt="">
+           
+         </div>
+         <div class="charts mt-20 mx-6 grid grid-cols-2  space-x-3 space-y-6">
+            <img src="images/fees6.png" alt="" class="mr-3">
+            <img src="images/fees5.png" alt="">
+         </div>
+           
+
+
+        </div>
+      
+
+
+       
+                       
+                        
+
+    
+        <footer class=" bg- text-center text-white bg-gray-900  p-3 mt-10">
+         All copyright &copy qoranCodes
+        </footer>
+    </main>
+
+
+   
+
+
+
+
+
+
+
+    
+
+
+
+
+
+     <!-- animation link -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script>
+         AOS.init();
+     </script>
+</body>
+</html>
+<!-- my template -->
+<!-- https://akademi-python-django-school-admin-template.dexignlab.com/index_2/ -->
+<!-- https://www.einfosoft.com/templates/admin/smart/source/dark/index.html -->

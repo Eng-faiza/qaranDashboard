@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QaranCodes</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- animation link -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<style>
+    :root{
+        --PrimaryColor: #0F112B;
+        --SecondaryColor: #25245F;
+        --AccedentColor: #AA54A0;
+    }
+</style>
+<body class="bg-[--PrimaryColor]">
+
+    <!-- boxes container -->
+    <div class="box-container grid grid-cols-1 md:grid-cols-2    text-white md:w-[70%] my-[3%] mx-auto p-8">
+        <div class="left-box   pt-5 pl-2   bg-[--SecondaryColor] " data-aos="fade-right">
+        <div class="header ">
+            <img src="images/logo.png" alt="" class="w-auto h-10">
+        </div>
+        <div class="info pl-10 md:pl-0 md:ml-[14%] my-10  w-[100%]  ">
+            <h1 class="text-[--AccedentColor] font-bold text-4xl mb-2">welcome back</h1>
+            <span class="text-xl text-pink-200">please enter your details</span>
+            <!-- sign with google container -->
+            <div class="sign-in w-[75%]  flex my-6 py-3  items-center justify-center border-2 border-[--AccedentColor]  hover:bg-[--AccedentColor] cursor-pointer">
+                <i class="fa-brands fa-google mr-2  text-xl"></i>
+                <h2 class="font-medium capitalize">sign in with google</h2>
+            </div>
+
+            <!-- form -->
+
+            <form action="" method="post" class=" w-[75%] md:w-[75%]">
+                <!-- inputs -->
+                <div class="input-box  w-[100%] mb-3">
+                    <label for="" class="font-medium text-xl  ">Email address</label>
+                <input type="text" name="" id="" placeholder=" " class="block  w-[100%] mt-2 bg-transparent text-white outline-none border-[2px] border-[--AccedentColor]  py-2 px-3 rounded-md">
+                
+                </div>
+                <div class="input-box  w-[100%] mb-4">
+                    <label for="" class="font-medium text-xl  ">password</label>
+                <input type="text" name="" id="" placeholder=" " class="block  w-[100%] mt-2 bg-transparent text-white outline-none border-[2px] border-[--AccedentColor]  py-2 px-3 rounded-md">
+                
+                </div>
+
+                <!-- privecy party -->
+
+                <div class="privecy flex justify-between ">
+                    <div class="remember">
+                        <input type="checkbox" id="check" >
+                        <label for="check" class="capitalize  " >remmember me</label>
+                    </div>
+                    <a href="#" class="text-[blue] font-medium capitalize underline">forgot password</a>
+                </div>
+
+                <!-- submit button -->
+                <div class="btn bg-[--AccedentColor] text-center py-2 my-4 rounded-md  hover:border-2  hover:border-[--AccedentColor] hover:bg-transparent cursor-pointer" >
+                    <button type="submit" class="text-md">Sign in</button>
+                </div>
+
+                <!--  sign up & new account -->
+
+                <div class="privecy  flex justify-center ">
+                    <div class="account">
+                        <p class="text-sm  ">Don't have an account? </p>
+                    </div>
+                    <a href="#" class="text-[blue] text-sm ml-2 font-medium capitalize underline">sign up</a>
+                </div>
+
+
+
+
+
+                
+
+
+            </form>
+
+        </div>
+
+        </div>
+        <div class="img-box  h-75 bg-red-400 bg-[url('images/sideimage.jpg')] bg-cover  bg-center h-75" data-aos="fade-left">  
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+     <!-- animation link -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script>
+         AOS.init();
+     </script>
+</body>
+</html>
